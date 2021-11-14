@@ -15,7 +15,7 @@ if(!isset($_GET['view'])){
             break;
         
         default:
-            # code...
+            require('./app/404.php');
             break;
     }
 
